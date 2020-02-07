@@ -7,6 +7,11 @@ services:
         environment: 
             - SECRET_KEY=^f@p@&#rut^m6ytjw8%^0li1(r2-lu_#8zz#8&oe=jne4h-itb
             - DEBUG=1
+            - EMAIL_HOST=smtp.gmail.com
+            - EMAIL_HOST_USER=tmdjan1go@gmail.com
+            - EMAIL_HOST_PASSWORD=Djangopass
+            - EMAIL_PORT=587
+            - EMAIL_USE_TLS=1
         volumes: 
             - .:/code
         ports: 
