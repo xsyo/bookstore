@@ -11,6 +11,7 @@ pylint-django = "*"
 django = "==2.2.3"
 psycopg2-binary = "==2.8.3"
 django-crispy-forms = "==1.7.1"
+django-allauth = "*"
 
 [requires]
 python_version = "3.7"
